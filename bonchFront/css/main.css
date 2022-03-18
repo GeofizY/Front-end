@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(289.74deg, #FFB800 20.84%, #FF8A00 76.63%);
+    background-blend-mode: luminosity;
+    mix-blend-mode: normal;
+}
+
+.container {
+    display: flex;
+    /* background-color: chartreuse; */
+    justify-content: space-between;
+    align-items: center;
+    min-width: 1170px;
+    margin: 67px 0 45px 0;
+}
+
+.item {
+    margin: 5px 0px 5px 44px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 14px;
+    /* background-color: blue; */
+}
+
+.mainName {
+    font-family: 'Raleway';
+    font-weight: 5;
+    font-size: 48px;
+    text-decoration: none;
+    color: black;
+    margin: 0 14px 0 0;
+}
+
+.logoHead {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+}
+
+.navHead {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+}
+
+header {
+    display: flex;
+    /* background-color: darkgreen; */
+    justify-content: center;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: darkred;
+    text-align: center;
+}
